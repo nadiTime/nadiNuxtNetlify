@@ -1,25 +1,14 @@
 <template>
   <section class="container">
-    <div>
-      <h1 class="title">
-        Nadi Nuxt
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
+    <div class="">
+      <h1 class="title">About Me</h1>
+      <p>Nadi is always here</p>
     </div>
   </section>
+
+
 </template>
 
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
 
 <style>
 .container {
@@ -39,15 +28,4 @@ export default {
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
